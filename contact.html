@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light" style="background-color: lightcyan;">
+
+        <a class="navbar-brand" href="#">Zaria L. Mateen</a>
+                
+            <ul class="nav">
+                
+            <li class="nav-item">
+                
+                <a class="nav-link active" href="index.html">About</a>
+                
+            </li>
+                
+            <li class="nav-item">
+                
+                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                
+            </li>
+                
+            <li class="nav-item">
+                
+                <a class="nav-link active" href="#">Contact</a>
+                
+            </li>
+                
+        </ul>
+                    
+    </nav>
+        
+<br>
+
+    <div class="container">
+
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+
+            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+            <label for="lname">Last Name</label>
+
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+            <textarea id="subject" name="subject" placeholder="Write something..." style="height: 200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
+
+<style>
+
+    input [type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input [type=submit] {
+        background-color: lightblue;
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+</style>
